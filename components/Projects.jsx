@@ -4,6 +4,16 @@ const Projects = () => {
 	return (
 		<div className="container mx-auto">
 			<div className="md:grid md:grid-cols-2">
+				<div className="p-4 md:order-last">
+					<Image
+						src="/pixel-jeff-witch.gif"
+						alt="Profile"
+						height={250}
+						width={400}
+						layout="responsive"
+						className="rounded-md"
+					/>
+				</div>
 				<div className="p-4 flex justify-center items-center">
 					<p>
 						I ran a small CNFT project called HIMA high school, which I was the
@@ -23,16 +33,6 @@ const Projects = () => {
 							<a className="link link-primary">github</a>
 						</Link>
 					</p>
-				</div>
-				<div className="p-4">
-					<Image
-						src="/pixel-jeff-witch.gif"
-						alt="Profile"
-						height={250}
-						width={400}
-						layout="responsive"
-						className="rounded-md"
-					/>
 				</div>
 			</div>
 		</div>
